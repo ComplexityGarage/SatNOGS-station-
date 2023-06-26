@@ -1,4 +1,4 @@
-# ExemplaryProject  (Title of the project)
+# SatNOGS station... (Title of the project)
 # Authors 
 - Author 1
 - Author 2
