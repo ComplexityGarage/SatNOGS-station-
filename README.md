@@ -7,16 +7,16 @@ Text here...
 
 ## Science and tech used 
 Materials used:
-- turnstile antenna - 1
-  - PCV pipe - 1
-  - aluminum rods - 6 
-  - 3d printed rods holders - 2
-  - coaxial cable - 5
-  - hot gun glue - a lot
-  - insulating tape - a lot
-- RTL-SDR dongle - 1
-- Raspberry Pi with SatNOGS OS - 1
-- time - too much
+- turnstile antenna – 1
+  - PCV pipe – 1
+  - aluminum rods – 6 
+  - 3d printed rods holders – 2
+  - coaxial cable – 5
+  - hot gun glue – a lot
+  - insulating tape – a lot
+- RTL-SDR dongle – 1
+- Raspberry Pi with SatNOGS OS – 1
+- time – too much
 
 ## State of the art 
 You can see last observations and current status of station on [its page in SatNOGS network](https://network.satnogs.org/stations/2909/).
