@@ -1,0 +1,2 @@
+iwgetid: wlan0     ESSID:"UJ_WiFi"
+hostname -I: 10.130.39.183 
