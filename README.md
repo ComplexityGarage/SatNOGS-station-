@@ -27,11 +27,13 @@ Materials used:
 
 ## State of the art
 
+The station is working as expected and is returning quite good observation. Temporarily, the antenna is mounted outside the window of Garage.
+
 You can see last observations and current status of station on [its page in SatNOGS network](https://network.satnogs.org/stations/2909/).
 
 ## What next?
 
-Next step is, after making sure that antenna is working correctly, to make the station available for everyone to schedule observations.
+Next step is, after making sure that antenna is working correctly and mounting it on the roof, to make the station available for everyone to schedule observations.
 
 ## Sources
 
