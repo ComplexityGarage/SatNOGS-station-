@@ -31,9 +31,17 @@ The station is working as expected and is returning quite good observation. Temp
 
 |![The antenna with RTL-SDR dongle just outside the Garage's window](IMG_20230703_201304340_MFNR.jpg)| ![Interior of antenna](IMG_20230626_151636899_MFNR.jpg) |
 | :--: | :--: |
-| The antenna with RTL-SDR dongle just outside the Garage's window | Interior of antenna |
+| *The antenna with RTL-SDR dongle just outside the Garage's window* | *Interior of antenna* |
 
 You can see last observations and current status of station on [its page in SatNOGS network](https://network.satnogs.org/stations/2909/).
+
+| image          | ![waterfall](waterfall_7807309_2023-07-03T17-39-45.png) | ![waterfall](waterfall_7818544_2023-07-05T17-09-30.png) | ![waterfall](waterfall_7819234_2023-07-06T00-21-36.png) | ![waterfall](waterfall_7819260_2023-07-06T07-17-13.png) |
+|----------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
+| observation id/link | [7807309](https://network.satnogs.org/observations/7807309/)                                                 | [7818544](https://network.satnogs.org/observations/7818544/)                                                 | [7819234](https://network.satnogs.org/observations/7819234/)                                                 | [7819260](https://network.satnogs.org/observations/7819260/)                                                 |
+| satellite | [2021-091H](https://db.satnogs.org/satellite/49322) | [NEXUS](https://db.satnogs.org/satellite/43937) | [ISS](https://db.satnogs.org/satellite/25544) | [DhabiSat](https://db.satnogs.org/satellite/49016) |
+| transmitter mode | BPSK 4800 | CW Beacon | V/U FM | BPSK 1200
+
+*Sample observations of our station with different satellites and dirrerent transmitter modes. Note that tangent-like lines are terrestrial noise*
 
 ## What next?
 
