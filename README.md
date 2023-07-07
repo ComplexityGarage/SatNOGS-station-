@@ -29,6 +29,10 @@ Materials used:
 
 The station is working as expected and is returning quite good observation. Temporarily, the antenna is mounted outside the window of Garage.
 
+|![The antenna with RTL-SDR dongle just outside the Garage's window](IMG_20230703_201304340_MFNR.jpg)| ![Interior of antenna](IMG_20230626_151636899_MFNR.jpg) |
+| :--: | :--: |
+| The antenna with RTL-SDR dongle just outside the Garage's window | Interior of antenna |
+
 You can see last observations and current status of station on [its page in SatNOGS network](https://network.satnogs.org/stations/2909/).
 
 ## What next?
