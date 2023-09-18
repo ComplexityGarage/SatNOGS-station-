@@ -60,6 +60,17 @@ You can see last observations and current status of station on [its page in SatN
 
 Next step is, after making sure that antenna is working correctly and mounting it on the roof, to make the station available for everyone to schedule observations.
 
+## Operation guide
+
+To make an observation you have to:
+
+1. Log in to [network.satnogs.org](https://network.satnogs.org) using Garage's credentials.
+1. Go to [station page](https://network.satnogs.org/stations/2909/) and check if it is in *Online* or *Testing* mode.
+1. Open *Future passes* tab and mark passes you want to observe (you can filter by success rate and max elevation in *filters*, I advise to set minimal max elevation to 45 degrees while the antenna is mounted on the window). Note that you can only set observations since 10 minutes from now.
+1. Confirm pass observation in opened card. If you set multiple observations, pay attention to overlapping.
+
+
+
 ## Sources
 
 <!--- [Writing on GitHub]( https://docs.github.com/en/get-started/writing-on-github )-->
