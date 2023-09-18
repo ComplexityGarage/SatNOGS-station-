@@ -15,15 +15,28 @@ Our goal was to create our own satellite ground station and to connect it to the
 Materials used:
 
 - turnstile antenna – 1
-  - PCV pipe – 1
-  - aluminum rods – 6
+  - PCV pipe – 2
+    - 25.8 cm (3/8 λ) – 1
+    - as long as you need – 1
+  - aluminum rods – 6 
+    - 16.35 cm (~1/4 λ) – 4
+    - 34.4 cm (1/2 λ) –
   - 3d printed rods holders – 2
   - coaxial cable – 5
+    - 75 Ω cable – 2
+      - 11.35 cm (1/4 λ) – 2
+    - 50 Ω cable – 3
+      - 11.35 cm (1/4 λ) – 1
+      - 22.7 cm (1/2 λ) – 1
+      - as long as you need – 1
   - hot gun glue – a lot
   - insulating tape – a lot
 - RTL-SDR dongle – 1
 - Raspberry Pi with SatNOGS OS – 1
 - time – too much
+- determination – adequately
+
+Note that wavelengths were multiplied by velocity factor of given material. Full assembly tutorial can be found on [Alicja Musiał's blog](https://alicja.space/blog/how-to-build-turnstile-antenna/).
 
 ## State of the art
 
