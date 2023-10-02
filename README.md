@@ -69,7 +69,14 @@ To make an observation you have to:
 1. Open *Future passes* tab and mark passes you want to observe (you can filter by success rate and max elevation in *filters*, I advise to set minimal max elevation to 45 degrees while the antenna is mounted on the window). Note that you can only set observations since 10 minutes from now.
 1. Confirm pass observation in opened card. If you set multiple observations, pay attention to overlapping.
 
+## Debug guide
 
+To log in to Raspberry Pi you have to:
+
+1. Log in to `UJ_WiFi` network using your credentials.
+2. Open Terminal (on Linux) or Powershell (on Windows).
+3. Type `ssh <username>@<address>`, where `<username>` is Raspberry login, and `<address>` is an IP address from `logs` directory.
+4. Type `yes` (if you re logging in first time from your computer) and then a password.
 
 ## Sources
 
