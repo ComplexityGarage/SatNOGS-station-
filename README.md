@@ -41,7 +41,7 @@ You can see last observations and current status of station on [its page in SatN
 | satellite | [2021-091H](https://db.satnogs.org/satellite/49322) | [NEXUS](https://db.satnogs.org/satellite/43937) | [ISS](https://db.satnogs.org/satellite/25544) | [DhabiSat](https://db.satnogs.org/satellite/49016) |
 | transmitter mode | BPSK 4800 | CW Beacon | V/U FM | BPSK 1200
 
-*Sample observations of our station with different satellites and dirrerent transmitter modes. Note that tangent-like lines are terrestrial noise*
+*Sample observation waterfalls of the station with different satellites and dirrerent transmitter modes. Note that tangent-like lines are terrestrial noise*
 
 ## What next?
 
