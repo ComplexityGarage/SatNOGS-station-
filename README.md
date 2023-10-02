@@ -15,15 +15,28 @@ Our goal was to create our own satellite ground station and to connect it to the
 Materials used:
 
 - turnstile antenna – 1
-  - PCV pipe – 1
-  - aluminum rods – 6
+  - PCV pipe – 2
+    - 25.8 cm (3/8 λ) – 1
+    - as long as you need – 1
+  - aluminum rods – 6 
+    - 16.35 cm (~1/4 λ) – 4
+    - 34.4 cm (1/2 λ) –
   - 3d printed rods holders – 2
   - coaxial cable – 5
+    - 75 Ω cable – 2
+      - 11.35 cm (1/4 λ) – 2
+    - 50 Ω cable – 3
+      - 11.35 cm (1/4 λ) – 1
+      - 22.7 cm (1/2 λ) – 1
+      - as long as you need – 1
   - hot gun glue – a lot
   - insulating tape – a lot
 - RTL-SDR dongle – 1
 - Raspberry Pi with SatNOGS OS – 1
 - time – too much
+- determination – adequately
+
+Note that wavelengths were multiplied by velocity factor of given material. Full assembly tutorial can be found on [Alicja Musiał's blog](https://alicja.space/blog/how-to-build-turnstile-antenna/).
 
 ## State of the art
 
@@ -46,6 +59,17 @@ You can see last observations and current status of station on [its page in SatN
 ## What next?
 
 Next step is, after making sure that antenna is working correctly and mounting it on the roof, to make the station available for everyone to schedule observations.
+
+## Operation guide
+
+To make an observation you have to:
+
+1. Log in to [network.satnogs.org](https://network.satnogs.org) using Garage's credentials.
+1. Go to [station page](https://network.satnogs.org/stations/2909/) and check if it is in *Online* or *Testing* mode.
+1. Open *Future passes* tab and mark passes you want to observe (you can filter by success rate and max elevation in *filters*, I advise to set minimal max elevation to 45 degrees while the antenna is mounted on the window). Note that you can only set observations since 10 minutes from now.
+1. Confirm pass observation in opened card. If you set multiple observations, pay attention to overlapping.
+
+
 
 ## Sources
 
