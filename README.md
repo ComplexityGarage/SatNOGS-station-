@@ -69,6 +69,20 @@ To make an observation you have to:
 1. Open *Future passes* tab and mark passes you want to observe (you can filter by success rate and max elevation in *filters*, I advise to set minimal max elevation to 45 degrees while the antenna is mounted on the window). Note that you can only set observations since 10 minutes from now.
 1. Confirm pass observation in opened card. If you set multiple observations, pay attention to overlapping.
 
+| ![waterfall](Zrzut%20ekranu%202023-10-02%20153344.png) | ![waterfall](Zrzut%20ekranu%202023-10-02%20153507.png) | ![waterfall](Zrzut%20ekranu%202023-10-02%20153820.png) | ![waterfall](Zrzut%20ekranu%202023-10-02%20153855.png) | ![waterfall](Zrzut%20ekranu%202023-10-02%20153921.png) | 
+|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
+| *Log in page*  | *Station dashboard. Note that station is currently in Testing mode* | *Future passes, with filters applied* | *Observation settings. Default settings should be good, but you have to pay attention to overlapping* | *Observation is in Pending state and is waiting for the pass* |
+
+To see an observation you have to:
+
+1. Go to page of the observation (or refresh it).
+2. Check if the waterfall contains signal or not, and mark it Good or Bad adequately ([guide](https://wiki.satnogs.org/Operation#Vetting_artifacts))
+3. You can look on *Audio*, *Data* or *Metadata* cards for more informations.
+
+| ![waterfall](Zrzut%20ekranu%202023-10-02%20182401.png) | ![waterfall](Zrzut%20ekranu%202023-10-02%20182434.png) | ![waterfall](Zrzut%20ekranu%202023-10-02%20182949.png) | 
+|---------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
+| *Our observation with waterfall*  | *There is a signal, so you should mark the observation as Good* | *Sample observtion data in HEX* |
+
 ## Debug guide
 
 To log in to Raspberry Pi you have to:
@@ -77,6 +91,12 @@ To log in to Raspberry Pi you have to:
 2. Open Terminal (on Linux) or Powershell (on Windows).
 3. Type `ssh <username>@<address>`, where `<username>` is Raspberry login, and `<address>` is an IP address from `logs` directory.
 4. Type `yes` (if you re logging in first time from your computer) and then a password.
+
+Once you are logged in, you can:
+
+* View SatNOGS Monitor (simple setup `satnogs-monitor -s 2909` or full setup `satnogs-monitor -l 2909 --data-path /tmp/.satnogs/data/ --waterfall --spectrum`)
+* Change configuration: `sudo satnogs-setup`
+* See logs: `less +G temp_du.log`
 
 ## Sources
 
